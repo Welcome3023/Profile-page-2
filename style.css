@@ -1,0 +1,156 @@
+/* Write some CSS below */
+body {
+    text-align: center;
+    background-color: #edb0f8;
+    font-size: 18px;
+    color: black;
+    font-family: 'open sans';
+    
+}
+
+h1{
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Roboto';
+}
+
+h2{
+    color: #951abe;
+    font-weight: bold;
+    font-family: 'Roboto';
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    background-color: black;
+    color: white ;
+}
+
+.container{
+    width: 700px;
+    margin: 20px auto;
+}
+
+.card-white {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 10px 20px rgba(0,0,0.1);
+    padding: 10px;
+    margin: 40px 0;
+    text-align: center;
+    border: 5px solid #951abe;
+}
+
+.buton-blue{
+    color: white;
+    background-color: #951abe;
+    border-radius: 25px;
+    padding: 15px 25px;
+    margin: 60px 60px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    margin: 150px;
+    box-shadow: 10px 10px 0 grey;
+    transition: 0.5s;
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.buton-blue :hover{
+    transform: translate(10px 10px);
+    box-shadow: 0px 0px 0 gray;
+}
+
+.img-circle{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border: 5px solid #951abe;
+}
+
+#introduction p{
+    margin-bottom: 30px;
+}
+
+.list-inline{
+    list-style: none;
+    padding-left: 0;
+}
+
+.list-inline li {
+    display: inline;
+}
+
+.list-inline li i {
+    font-size: 50px;
+    margin: 0 5px;
+    color : black
+}
+
+.list-inline i :hover{
+    opacity: 0.7;
+}
+
+p {
+
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: justify
+}
+
+#description p{
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: bold;
+}
+
+.rounded-image{
+    border-radius: 10%;
+    width: 300px;
+    height: 150px;
+    object-fit: cover;
+}
+
+#experiences ul {
+    text-align: left;
+    list-style: none;
+}
+
+#training ul{
+    text-align: left;
+    list-style: none;
+}
+
+#skills ul{
+    text-align: left;
+    list-style: none;
+}
+
+#interests{
+    text-align: left;
+    list-style: none;
+}
+
+#mon-image{
+    transition: 0.5s;
+}
+
+#mon-image:hover{
+    transform: scale(1.5);
+}
+
+#mon-bouton{
+    transition: 0.5s;
+    display: inline-block;
+}
+
+#mon-bouton:hover{
+    transform: translateY(-5px);
+}
+
